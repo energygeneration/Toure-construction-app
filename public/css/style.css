@@ -1,0 +1,20 @@
+.img{
+    background-image: url(/assets/img/img.svg);
+}
+
+.image{
+    background-image: url(/assets/img/accueil.svg);
+    height: 90vh;
+}
+
+.formulaire input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+.formulair input{
+    border-right: none;
+    border-left: none; 
+}
+
