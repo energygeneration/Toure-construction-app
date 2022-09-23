@@ -1,8 +1,8 @@
 
  @extends('layouts.app')
+
  @section('content')
 
- <body>
     
  <div class="image d-flex justify-content-center align-items-center text-white">
          <div class="content text-center">
@@ -11,7 +11,7 @@
      </div>
    <div class="container-fluid" style="background-color:#FFB600" >
     <div class="container pt-4 pb-4">
-      <div class="text-center text-white text-bold"><h2>NOS SERVICES</h2></div>
+      <div class="text-center text-white text-bold"id="Nos services"><h2>NOS SERVICES</h2></div>
       <div class=" pb-3"><h4>Service de Rénovation:</h4></div>
 
     <div class="row">
@@ -69,7 +69,7 @@
 
   <div class="container-fluid">
     <div class="container pt-4 pb-4">
-     <div class=" pb-3"id="Nos réalisation"><h1>Découvrez une sélection de nos réalisations</h1></div>
+     <div class=" pb-3"id="Nos réalisations"><h1>Découvrez une sélection de nos réalisations</h1></div>
     
      <div class="row ">
       <div class="text-center mt-5"> <h3>Véranda</h3></div>
@@ -120,11 +120,3 @@
     </div>
     </div>
     @endsection
-
-    
-   </body>
-   </html>
-
-
-
-

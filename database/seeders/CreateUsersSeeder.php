@@ -16,15 +16,19 @@ class CreateUsersSeeder extends Seeder
     public function run()
     {
         $users = [
-            [
-               'name'=>'Admin User',
+            [ 
+               'first_name'=>'Toure User',
+               'last_name'=>'Admin User',
+               'phone'=>'90251696',
                'email'=>'admin@tutsmake.com',
                'type'=>1,
                'password'=> bcrypt('123456'),
             ],
            
             [
-               'name'=>'User',
+                'first_name'=>'Toure User',
+                'last_name'=>'User',
+               'phone'=>'90251696',
                'email'=>'user@tutsmake.com',
                'type'=>0,
                'password'=> bcrypt('123456'),
