@@ -11,7 +11,7 @@
      </div>
    <div class="container-fluid" style="background-color:#FFB600" >
     <div class="container pt-4 pb-4">
-      <div class="text-center text-white text-bold"id="Nos services"><h2>NOS SERVICES</h2></div>
+      <div class="text-center text-white text-bold"><h2>NOS SERVICES</h2></div>
       <div class=" pb-3"><h4>Service de Rénovation:</h4></div>
 
     <div class="row">
