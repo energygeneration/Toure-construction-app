@@ -13,7 +13,7 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/bootstrap.min.css') }}">
-     <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
@@ -163,6 +163,9 @@
         <div class="col text-center text-dark pt-2 pb-2">Copiryright 2022</div>
     </div>
   </div>
+  
+  <script src="{{ asset('assets/bootstrap.min.js') }}"></script>
+     <script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>
 

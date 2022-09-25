@@ -11,9 +11,8 @@
 
 
 @foreach ($blog as $b )
-  
 
-    <div class="col-4">
+  <div class="col-4">
   <div class="card" style="width: 18rem;">
   <img src="{{Storage::url($b->image)}}" class="card-img-top" alt="...">
   <div class="card-body">
@@ -24,12 +23,7 @@
   </div>
   </div>
 
-
   @endforeach
-
   </div>
   </div>
-
-
-
   @endsection
