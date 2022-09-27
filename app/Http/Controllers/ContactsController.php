@@ -34,4 +34,11 @@ class ContactsController extends Controller
         $contact->save();
         return "C'est bien enregistré !";
     }
+public function contact(){
+
+    $contacts= Contact::all();
+    return view('liste-rendez-vous', compact('contacts'));
+
+}
+
 }

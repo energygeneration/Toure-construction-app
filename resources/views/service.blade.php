@@ -17,20 +17,20 @@
     <div class="row">
       <div class="col-sm-4">
        <div class="card">
-      <div class="card-body">
+      <div class="card-body shadow">
         <p class="card-text">Je souhaite renover mon appartement</p>
       </div>
     </div>
   </div>
   <div class="col-sm-4">
     <div class="card">
-      <div class="card-body">
+      <div class="card-body shadow">
         <p class="card-text">Je souhaite renover ma maison</p>
       </div>
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
+    <div class="card shadow">
       <div class="card-body">
         <p class="card-text">Je souhaite agrandir mon bien</p>
       </div>
@@ -40,14 +40,14 @@
  <div class=" pb-3"><h4>Service de Construction:</h4></div>
      <div class="row">
   <div class="col-sm-4">
-    <div class="card">
+    <div class="card shadow">
       <div class="card-body">
         <p class="card-text">Je souhaite construire mon appartement</p>
       </div>
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
+    <div class="card shadow">
       <div class="card-body">
         <p class="card-text">Je souhaite construire ma maison</p>
       </div>
@@ -55,7 +55,7 @@
   </div>
     <div class="col-sm-4">
       <div class="card">
-      <div class="card-body">
+      <div class="card-body shadow">
         <p class="card-text">Je souhaite agrandir mon bien</p>
       </div>
        </div>

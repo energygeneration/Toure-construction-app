@@ -4,11 +4,12 @@
   
 use Illuminate\Support\Facades\Route;
   
+use App\Http\Controllers\BlogController;
+
 use App\Http\Controllers\HomeController;
 
+use App\Http\Controllers\CompteController;
 use App\Http\Controllers\ContactsController;
-
-use App\Http\Controllers\BlogController;
 
 
   
@@ -23,10 +24,6 @@ use App\Http\Controllers\BlogController;
 |
 */
   
-Route::get('/welcome', function () {
-    return view('welcome');
-});
-
 Route::get('/', function () {
     return view('acceuil');
 });
@@ -40,8 +37,8 @@ Route::get('/rendez-vous', function () {
     return view('rendez-vous');
 });
 
-Route::get('/espace-client', function () {
-    return view('espace-client');
+Route::get('/FormulaireBlogs', function () {
+    return view('FormulaireBlogs');
 });
 
 Route::get('/contacter', function () {
@@ -82,7 +79,7 @@ All Admin Routes List
 --------------------------------------------*/
 Route::middleware(['auth', 'user-access:admin'])->group(function () {
   
-    Route::get('/admin/home', [HomeController::class, 'adminHome'])->name('admin.Home');
+    Route::get('/adminHome', [HomeController::class, 'adminHome'])->name('admin.Home');
 
 
 });
@@ -96,3 +93,10 @@ Route::get('blog', [BlogController::class, 'create'])->name('blog.create');
 Route::post('blog', [BlogController::class, 'store'])->name('blog.store');
 
 Route::get('/Blog', [BlogController::class, 'show'])->name('Blog');
+
+Route::get('liste-rendez-vous', [ContactsController::class,'contact'])->name('list_rdv');
+
+
+Route::post('/ModificationFormulaire', 'CompteController@ModificationFormulaire');
+Route::get('/ModificationFormulaire/{rdv}',[CompteController::class, 'index'])->name('ModificationFormulaire');
+Route::post('/ModifFormulaire/{id}',[CompteController::class, 'update'])->name('ModifFormulaire');

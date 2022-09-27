@@ -102,9 +102,9 @@
              <h4>Parlons ensemble de votre projet</h4>
              <p>Contactez-nous pour résever une consultation gratuite</p> <br>
              <h4>Vous pouvez soit</h4>
-            <a href="tel:+228 90251696"><p>Appelez-nous directement sur: 00228 90251696</p></a> 
+            <a href="tel:+228 90251696"><p>Nous appelez directement sur: 00228 90251696</p></a> 
              <p  class="">ou</p>
-            <a href="mailto:ouroniletakiyatou@gmail.com"><p>Envoyez-nous un E-mail:ouroniletakiyatou@gmail.com</p></a> 
+            <a href="mailto:ouroniletakiyatou@gmail.com"><p>Envoyez-nous un E-mail: ouroniletakiyatou@gmail.com</p></a> 
           </div>
         
           <div class="col-7 pt-3">
@@ -160,7 +160,7 @@
 
     <div class="container-fluid" style="background-color:white;">
       <div class="row">
-        <div class="col text-center text-dark pt-2 pb-2">Copiryright 2022</div>
+        <div class="col text-center text-dark pt-2 pb-2">Copyright © Tak-Toure 2022</div>
     </div>
   </div>
   

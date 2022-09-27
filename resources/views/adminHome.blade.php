@@ -1,3 +1,6 @@
+
+   
+
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from
@@ -56,9 +59,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <div class="image">
+        <!-- <div class="image">
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-        </div>
+        </div> -->
         <div class="info">
           <a href="#" class="d-block">Alexander Pierce</a>
         </div>
@@ -84,14 +87,30 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 Profile
               </p>
             </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-cog"></i>
+            <li class="nav-item">
+            <a href="FormulaireBlogs" class="nav-link">
+              <!-- <i class="nav-icon fas fa-cog"></i> -->
               <p>
-                Settings
+                Gestion de Blog
               </p>
             </a>
+          </li>
+          <li class="nav-item">
+            <a href="Blog-detail" class="nav-link">
+              <!-- <i class="nav-icon fas fa-cog"></i> -->
+              <p>
+                Blog-detail
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="liste-rendez-vous" class="nav-link">
+              <!-- <i class="nav-icon fas fa-cog"></i> -->
+              <p>
+                Liste des rendez-vous
+              </p>
+            </a>
+          </li>
           </li>
         </ul>
       </nav>
@@ -103,6 +122,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
   @yield('content')
+  @yield('form_modif')
   </div>
   <!-- /.content-wrapper -->
 
@@ -123,7 +143,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2022</strong> All rights reserved.
+
   </footer>
 </div>
 <!-- ./wrapper -->
